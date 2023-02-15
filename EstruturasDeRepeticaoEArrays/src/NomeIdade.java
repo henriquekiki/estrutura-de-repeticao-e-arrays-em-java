@@ -13,7 +13,7 @@ public class NomeIdade {
             if (nome.equals("0")) break;
             System.out.println("Digite sua idade: ");
             idade = scan.nextInt();
-            //if (idade > 100) break;
+            if (idade > 100) break;
         }
 
         
